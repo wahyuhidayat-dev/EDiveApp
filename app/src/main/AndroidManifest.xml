@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_dive">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditProfileActv"></activity>
+        <activity android:name=".MyTicketDetailActv" />
+        <activity android:name=".MyProfileActv" />
+        <activity android:name=".SuccessOrder" />
+        <activity android:name=".CheckoutActv" />
+        <activity android:name=".DoDiveActv" />
+        <activity android:name=".HomeActv" />
+        <activity android:name=".SuccessActv" />
+        <activity android:name=".RegisterTwoActv" />
+        <activity android:name=".RegisterOneActv" />
+        <activity android:name=".SignInActv" />
+        <activity android:name=".GetstartedActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

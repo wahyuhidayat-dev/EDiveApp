@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">E-Dive</string>
+    <string name="getstarted">Hi WELCOME\nTO \nE-DIVE</string>
+    <string name="welcome">Discover\nThe Beauty \nOf Indonesia</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">NEW ACCOUNT</string>
+    <string name="profile">MY PROFILE</string>
+    <string name="signout">SIGN OUT</string>
+    <string name="conti">CONTINUE</string>
+    <string name="buy">BUY TICKET</string>
+    <string name="pay">PAY NOW</string>
+    <string name="refund">REFUND NOW</string>
+    <string name="view_ticket">VIEW TICKET</string>
+    <string name="dashboard">MY DASHBOARD</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email Address</string>
+    <string name="name">Name</string>
+    <string name="bio">Bio</string>
+    <string name="license">Diving License?</string>
+    <string name="exp">EXPLORE NOW</string>
+</resources>
