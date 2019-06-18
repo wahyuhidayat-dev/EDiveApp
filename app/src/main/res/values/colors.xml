@@ -11,6 +11,8 @@
     <color name="white">#FFF</color>
     <color name="whitegrad">#D5D1D1</color>
     <color name="blackPrimary">#21272C</color>
-    <color name="Orange">#F1BC1D</color>
+    <color name="blackGrad">#125488</color>
+    <color name="blueGrad">#2A93D5</color>
+    <color name="Orange">#F97F02</color>
     <color name="Green">#5FDD99</color>
 </resources>

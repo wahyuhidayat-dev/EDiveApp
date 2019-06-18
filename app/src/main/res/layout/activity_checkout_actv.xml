@@ -95,21 +95,20 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/accomodation"
+                    android:id="@+id/nama_trip"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:fontFamily="@font/mmedium"
-                    android:text="Pramuka Island"
                     android:textColor="@color/textgray"
                     android:textSize="16sp" />
 
                 <TextView
+                    android:id="@+id/location"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:fontFamily="@font/mlight"
-                    android:text="Kepulauan Seribu"
                     android:textColor="@color/textgray"
                     android:textSize="12sp" />
 
@@ -124,19 +123,23 @@
                 android:layout_height="wrap_content">
 
                 <Button
+                    android:id="@+id/btn_minus"
                     android:background="@drawable/btnmines"
                     android:layout_width="28dp"
                     android:layout_height="38dp" />
                 <TextView
+                    android:id="@+id/jumlah_ticket"
                     android:fontFamily="@font/mregular"
                     android:textSize="18sp"
                     android:textColor="@color/blackPrimary"
                     android:layout_marginRight="12dp"
                     android:layout_marginLeft="12dp"
-                    android:text="2"
+                    android:text="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <Button
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/btn_plus"
                     android:background="@drawable/btnpls"
                     android:layout_width="28dp"
                     android:layout_height="32dp" />
@@ -145,12 +148,11 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/short_desc_trips"
+            android:id="@+id/ketentuan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/mlight"
-            android:text="Price Exclude :\nAirfare Ticket\nAlcohol/Beers"
             android:textColor="@color/textgray"
             android:textSize="16sp" />
 
@@ -199,12 +201,12 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/harga_ticket"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/mmedium"
-                android:text="Rp. 2.000.000,-"
                 android:textColor="@color/colorPrimaryblue"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -231,12 +233,12 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/total_harga"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/mmedium"
-                android:text="Rp. 2.000.000,-"
                 android:textColor="@color/Green"
                 android:textSize="22sp" />
         </LinearLayout>
@@ -273,6 +275,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <ImageView
+
             android:layout_width="36dp"
             android:layout_height="32dp"
             android:src="@drawable/ic_back" />

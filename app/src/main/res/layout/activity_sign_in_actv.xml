@@ -71,6 +71,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/xusername"
                 android:inputType="text"
                 android:fontFamily="@font/mmedium"
                 android:textColor="@color/blackPrimary"
@@ -99,6 +100,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/xpassword"
                 android:inputType="textPassword"
                 android:fontFamily="@font/mmedium"
                 android:textColor="@color/blackPrimary"

@@ -16,6 +16,7 @@ public class SuccessOrder extends AppCompatActivity {
         setContentView(R.layout.activity_success_order);
 
         mydashboard = findViewById(R.id.mydashboard);
+        view_ticket = findViewById(R.id.view_ticket);
         mydashboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,5 +24,13 @@ public class SuccessOrder extends AppCompatActivity {
                 startActivity(home);
             }
         });
+        view_ticket.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoprof=  new Intent(SuccessOrder.this,MyProfileActv.class);
+                startActivity(gotoprof);
+            }
+        });
+
     }
 }

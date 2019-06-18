@@ -89,6 +89,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/nama_lengkap"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
@@ -118,6 +119,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/bio"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
@@ -145,6 +147,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/dive_lisence"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
@@ -197,10 +200,11 @@
             android:id="@+id/pic_photo_register"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            android:src="@drawable/wahyu"/>
+            android:src="@drawable/icon_nopic"/>
     </com.github.florent37.shapeofview.shapes.CircleView>
 
     <Button
+        android:id="@+id/btn_add_photo"
         android:textAlignment="center"
         android:layout_width="35dp"
         android:layout_height="35dp"
